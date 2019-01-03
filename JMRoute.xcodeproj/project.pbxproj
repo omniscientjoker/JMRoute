@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F31CC5781F42D66B00284623 /* DefineConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineConfig.h; sourceTree = "<group>"; };
 		F324AF4F1F271AFA00559718 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		F324AF501F271AFA00559718 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F3795F471F28831700DD6812 /* JumpRoute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JumpRoute.framework; sourceTree = "<group>"; };
@@ -62,6 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F31CC5751F42D5CB00284623 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F31CC5761F42D5CB00284623 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F31CC5781F42D66B00284623 /* DefineConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		F32E19D31F21A27400656D02 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +128,8 @@
 			children = (
 				F39381D81F1860A50058DFAF /* JMRoute */,
 				F39381D11F1860A50058DFAF /* Base */,
+				F31CC5761F42D5CB00284623 /* Config */,
+				F31CC5751F42D5CB00284623 /* Utils */,
 				F39381C71F1860A50058DFAF /* ViewControllers */,
 			);
 			path = Classess;

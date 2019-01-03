@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BaseViewController : UIViewController
-
+#import <JumpRoute/JumpRoute.h>
+#import "AppDelegate.h"
+@interface BaseViewController : UIViewController <RouteMiddleware>
+@property(nonatomic,weak)Route * route;
 @end

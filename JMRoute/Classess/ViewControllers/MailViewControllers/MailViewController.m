@@ -9,19 +9,17 @@
 #import "MailViewController.h"
 
 @interface MailViewController ()
-
 @end
 
 @implementation MailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"mail");
+    self.view.backgroundColor = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
